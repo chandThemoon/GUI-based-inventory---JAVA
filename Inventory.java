@@ -32,8 +32,7 @@ public class Inventory extends Application implements EventHandler<ActionEvent> 
 	public static void main(String[] args) throws Exception {
 		launch(args);
 	}
-
-	@Override
+	
 	public void start(Stage mystage) {
 
 		bte = new Button("Enter");
@@ -83,8 +82,7 @@ public class Inventory extends Application implements EventHandler<ActionEvent> 
 		mystage.setScene(scene);
 		mystage.show();
 	}
-
-	@Override
+	
 	public void handle(ActionEvent event) {
 
 		try {
