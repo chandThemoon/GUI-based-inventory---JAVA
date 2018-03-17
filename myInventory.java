@@ -424,7 +424,6 @@ public class myInventory extends Application {
 			}
 		}
 	}
-        // I refered to newBoston's tutorial on Adding and Deleting TableView for this
          public void add(){
                 product = new Entry();
                 product.setName(tf1.getText());
